@@ -1,0 +1,1232 @@
+.os
+{
+    background-color: #333;
+    color: #fff;
+    padding:3% ;
+    font-size: 1.4vw;
+    min-height: 20vh;
+}
+.a
+{
+    margin-top: 2%;
+}
+
+.test
+{
+    height: 200vh;
+    background-color: #f6f6f6;
+    line-height: 5;
+}
+body
+{
+    overflow-x: hidden;
+}
+/****************** Active link**************/
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus
+ {
+    background-color: transparent;
+}
+
+/****************** normal link**************/
+.navbar
+{
+    background-color: rgba(0, 0, 0, .6);
+    border-bottom: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #D0D0D0 ;
+}
+.navbar-nav > li > a {
+
+    padding: 18px 18px 20px 18px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.navbar-nav > li
+{
+    position: relative;
+    transition: .5s ease;
+}
+.navbar-inverse .navbar-nav > .active > a::after,
+ .navbar-inverse .navbar-nav > .active > a:hover::after,
+  .navbar-inverse .navbar-nav > .active > a:focus::after
+{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: .2vh;
+    z-index: 1000;
+    top: 50%;
+    left: 15px;
+    transform: skewy(-20deg);
+
+}
+
+
+.popup1
+{
+    z-index: 1000;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup1 span
+{
+    z-index: 1001;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    color: #fff;
+    font-size: 3vw;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.popup1 input
+{
+    margin-top: 20%;
+    padding: 1% ; 
+    z-index: 1001;
+    outline: none;
+    user-select: none;
+    background-color: rgba(0, 0, 0, .6);
+    border: 1px solid #ccc;
+    font-size: 1.4vw;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.navbar-brand img
+{
+    width: 75%;
+}
+.navbar
+{
+    min-height:50px ;
+}
+.dropdown-menu
+{
+    background-color: #333;
+    min-width: 200%;
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a
+{
+    color: #fff;
+    padding: 5%;
+    -webkit-transition:padding .5s ease;
+    -moz-transition:padding .5s ease;
+    -ms-transition:padding .5s ease;
+    -o-transition:padding .5s ease;
+    transition: padding .5s ease;
+}
+.dropdown-menu >li >a:hover,
+.dropdown-menu >li >a:focus
+{
+    color: #bbb;
+    padding-left: 10%;
+}
+.dropdown-menu .divider
+{
+    background-color: rgb(110, 103, 103);
+}
+.navbar-toggle {
+
+    padding: 12px 10px;
+}
+
+/*****************************************/
+
+/************** banner *******************/
+.item
+{
+    position: relative;
+}
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+.slide .carousel-caption
+{
+    top: 55%;
+    transform: translateY(-50%);
+    text-align: left;
+    right: 0;
+    left: 57%;
+    background-color: transparent;
+    box-shadow: 4px 4px 8px rgb(112, 111, 111),
+    -4px -4px 8px  rgb(112, 111, 111);
+    width: 30%;
+    padding: 3% 2%;
+    height: auto;
+    bottom: 0;
+    max-height: 20vh;
+    min-height: 40vh;
+    text-transform: uppercase;
+}
+.slide .carousel-caption span
+{
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.slide .carousel-caption h1
+{
+    padding-bottom: 2%;
+    font-size: 3vw;
+}
+.carousel-caption a
+{
+    border: none;
+    transition: .5s ease;
+}
+.slide .carousel-caption a:hover
+{
+    background-color: #fff;
+    font-weight: bold;
+}
+#myslide > a
+{
+    transition: .5s ease;
+}
+
+.carousel-inner > .item > img
+{
+    width: 100%;
+}
+/*******************************************************/
+
+/****************** section 1 ************************/
+.about
+{
+    padding-top: 4%;
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+    overflow: hidden;
+}
+.about h4
+{
+    font-weight: bold;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about .container
+{
+    margin-top: 4%;
+    padding-top: 2;
+    padding-bottom: 4%;
+}
+.about .container h4
+{
+    color: #fff;
+    font-weight: bold;
+}
+.row > div 
+{
+    line-height: 1.8;
+    margin-bottom: 3%;
+}
+.about .row i 
+{
+    padding: 28px;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-bottom: 4%;
+    transition: .5s ease;
+}
+.about .row i:hover
+{
+    color: #fff;
+}
+.about .row p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+    word-wrap: break-word;
+}
+
+/****************** section 1 ************************/
+
+/******************* section 2 *********************/
+
+.classes
+{
+    padding-top: 4%;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    overflow: hidden;
+
+}
+.classes h4
+{
+    font-weight: bold;
+    padding: 0;
+}
+.classes h1
+{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.classes .container
+{
+    margin-top: 4%;
+    padding-top: 2;
+    padding-bottom: 4%;
+
+}
+.classes .img
+{
+    width: 100%;
+    overflow: hidden;
+}
+.classes .img img
+{
+    width: 100%;
+}
+.details
+{
+    background: rgb(12, 12, 12);
+    position: relative;
+    padding: 10px 20px 26px 20px;
+    z-index: 1;
+}
+.classes .details:after {
+    position: absolute;
+    left: -5px;
+    top: -42px;
+    height: 100px;
+    min-width: 600px;
+    width: 952px;
+    border-top: 4px solid #464646;
+    background:  rgb(12, 12, 12);
+    content: "";
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+.class  , .class1
+{
+    overflow: hidden;
+}
+
+.classes .details h3{
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 25px;
+}
+.classes .class1 h3{
+    font-size: 27px;
+    display: inline-block;
+    padding-right: 10%;
+}
+.classes .details  i 
+{
+    background-color:rgb(27, 27, 27);
+    padding: 3% ;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.classes .details span
+{
+    display: block;
+}
+
+/**********************************************************/
+
+/***************** appoint **********************/ 
+
+.apoient
+{
+    background-image: url("../img/banner-bg.jpg");
+    width: 100%;
+    height: 55vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.apoient .container
+{
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    line-height: 5;
+}
+.apoient .container h1
+{ 
+    font-weight: bolder;
+}
+.apoient .container p
+
+{
+    color: #bbbb;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: block;
+
+}
+.apoient .container span
+{
+    padding: 2%  2.5%;
+    font-weight: bold;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 10px;
+
+}
+.apoient .container span:hover
+{
+    color: #fff;
+    
+}
+
+/*********************************************************/
+
+
+/********************** test *********************/
+.testmon
+{
+    background:  rgb(12, 12, 12);
+    color: #fff;
+}
+.testmon .container
+{
+    padding-top: 4%;
+}
+.testmon h1
+{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.testmon .item q
+{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #aaa;
+    line-height: 2;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+}
+.testmon .item span
+{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.testmon .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin: auto;
+}
+.testmon .carousel-indicators li 
+{
+    background: none;
+    text-indent: 0;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 50%;
+    opacity: .4;
+    margin:5px;
+    border: 3px solid rgb(12, 12, 12);
+    transition: .5s ease;
+}
+.testmon .carousel-indicators li.active
+{
+    background: none;
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+.testmon .carousel-indicators li img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.testmon .item .client img
+{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.testmon .item .client
+{
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-color: #fff;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+/********************** test *********************/
+
+
+/***************************our-team******************/
+
+.price
+{
+    padding-top: 50px;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    overflow: hidden;
+}
+.price h4
+{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.price h1
+{
+    font-weight: bold;
+}
+.price .row
+{
+    margin-top: 80px;
+}
+.price .row .mem1 
+{
+    border: 1px solid #aaa;
+    padding: 30px 0;
+    transition-duration: .7s;
+}
+.price .row .mem1  h4
+{
+    font-size: 29px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.price .row .mem1  p
+{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    background-color: #bbb;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 30px;
+    -webkit-transition-duration: .7s;
+    transition-duration: .7s;
+    border: 2px solid  rgb(27, 27, 27);
+}
+.price .row .mem1:hover p 
+{
+    -webkit-transform: scale(1.1 , 1.1) rotate(360deg);
+    transform: scale(1.1 ,1.1) rotate(360deg);
+
+    
+}
+.price .row .mem1  ul
+{
+    line-height: 2;
+
+}
+.price .row .mem1  ul li 
+{
+    letter-spacing: 1px;
+}
+.price .row .mem1  button
+{
+    color: #ffff;
+    font-weight: bold;
+    transition-duration: .7s;
+}
+.price .row .mem1  button:hover
+{
+    background-color: transparent;
+    border: 1px solid #aaa;
+}
+/************** price****************/
+
+/***********************our-team**************/
+.our-team
+{
+    padding: 50px 10px;
+    background-color:rgb(46, 45, 45);
+    color: #fff;
+}
+.our-team button
+{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 18px 27px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.our-team button:hover
+{
+    color: #fff;
+    border: 2px solid #aaa;
+}
+.our-team span
+{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.our-team h2
+{
+    font-weight: bold;
+}
+.swiper-container  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    position: relative;
+    
+    align-items: center;
+    overflow: hidden;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+
+  .swiper-slide:first-of-type
+  {
+
+    background-image: url("../img/team-1.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .swiper-slide:nth-of-type(2)
+  {
+
+    background-image: url("../img/team-2.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .swiper-slide:nth-of-type(3)
+  {
+
+    background-image: url("../img/team-3.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .swiper-slide:nth-of-type(4)
+  {
+
+    background-image: url("../img/team-4.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .swiper-slide:nth-of-type(5)
+  {
+
+    background-image: url("../img/team-5.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .swiper-slide:nth-of-type(6)
+  {
+
+    background-image: url("../img/team-6.jpg");
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .our-team .swiper-slide:after {
+    position: absolute;
+    left: -5px;
+    top: 230px;
+    height: 180px;
+    min-width: 600px;
+    width: 952px;
+    border-top: 4px solid #464646;
+    background:  rgb(12, 12, 12);
+    content: "";
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-5deg);
+    z-index: 1;
+}
+
+.con
+{
+    position: absolute;
+    top: 290px;
+    z-index: 2;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+/************************************************/
+
+
+/****************sub**************************/
+
+.sub
+{
+    background-image: url("../img/hero-4.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.sub .overly
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.sub .container
+{
+    color: #aaa;
+    padding: 40px 0;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub form .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.sub form button
+{
+    border-radius: 0;
+}
+.sub h1
+{
+    font-weight: bold;
+    font-style: italic;
+}
+/**************************************************/
+
+.stats
+{
+    background-color: rgb(27, 27, 27);
+    padding:50px 0 0px 0;
+    color: #aaa;
+    overflow: hidden;
+}
+.stats .row
+{
+    margin-top: 70px;
+}
+.stats .stat1
+{
+    transition: .5s ease-in-out;
+    margin-bottom: 50px;
+}
+.stats .stat1
+{
+    color: #fff;
+}
+.stats .container h1
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.stats .row i 
+{
+    background-color: #464646;
+    padding: 15px;
+    border-radius: 50%;
+    transition: .5s ease;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.stats .row i:hover
+{
+    color: #aaa;
+}
+.stats .row p 
+{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.stats .row span
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/*************************************************/
+.sekils
+{
+    background-image: url("../img/gg.jpg");
+    min-height: 55vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+.sekils .over11
+{
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 60vh;
+    padding-top: 50px;
+}
+.sekils .skils-info h3
+{
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+.sekils .skils-info p
+{
+    color: #edededed;
+    line-height: 1.9;
+}
+.sekils .skils-info button
+{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: .5s ease-in-out;
+    margin-top: 10px;
+}
+.sekils .skils-info button:hover
+{
+    background-color: transparent;
+    border: 2px solid #aaa;
+}
+.sekils .container h1
+{
+    margin-bottom: 40px;
+    font-size: 55px;
+    text-shadow:8px 8px 8px rgb(5, 2, 2);
+}
+.sekils .progress 
+{
+    height: 30px;
+}
+.sekils .progress .progress-bar
+{
+    line-height: 30px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    text-indent: 16px;
+}
+
+/***************************************/
+
+/***************contact-us**************/
+.contact-us
+{
+    background-color: rgb(12, 12, 12);
+    color: #aaa;
+    padding: 50px 0 20px 0 ;
+}
+
+.contact-us .container h1
+{
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.contact-us .container p
+{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.contact-us .container textarea
+{
+    height: 108px;
+}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+    border: none;
+    transition: .5s ease;
+}
+.contact-us input[type="text"]:focus,
+.contact-us textarea:focus
+
+{
+    box-shadow:-4px -4px 8px 1px rgba(253, 104, 4, 0.452),
+    4px 4px 8px 1px rgba(253, 104, 4, 0.452);
+    overflow: hidden;
+
+}
+.contact-us .container button
+{
+
+    color: #fff;
+    transition: .5s ease;
+}
+/************************************/
+
+.our-customer
+{
+    background-image: url("../img/d.jpg");
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.our-customer .over11
+{
+    background-color: rgba(255, 255, 255, .4);
+    min-height: 20vh;
+    padding: 40px 8px 0px 4px;
+
+}
+.our-customer img
+{
+    opacity: .7;
+    margin-bottom: 10px;
+    transition: .4s ease;
+    padding:  9px;
+    border: 1px solid transparent;
+
+}
+.our-customer img:hover
+{
+    opacity: 1;
+    background-color: rgb(68, 67, 67);
+    border: 1px solid #aaa;
+}
+/********************************************/
+footer
+{
+    background-color: rgb(0, 0, 0);
+    padding-top: 30px;
+    color: #aaa;
+}
+  footer a
+  {
+    color: #aaa;
+    font-size: 17px;
+
+  }
+  footer a:hover
+  {
+      color: #fff;
+  }
+
+footer h3
+{
+    text-shadow: 2px 2px 4px rgb(116, 114, 114);
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 3px 0 20px;
+}
+footer .three-columeed
+{
+    overflow: hidden;
+}
+footer .three-columeed li 
+{
+    width: 33.3333%;
+    float: left;
+}
+footer .social
+{
+    overflow: hidden;
+    margin: 30px 0 10px;
+}
+footer .social li 
+{
+    display: inline-block;
+    margin-right: 4px;
+    opacity: .6;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+footer .social li img
+{
+    border: 1px solid #ccc;
+    padding: 1px;
+    border-radius: 50%;
+}
+footer .social li:hover
+{
+    opacity: 1;
+}
+footer .img-thumbnail
+{
+    background-color: rgba(0, 0, 0, .3);
+    border: 1px solid #444;
+    margin-bottom: 7px;
+}
+footer .copyright
+{
+    margin-top: 20px;
+    background-color: rgb(68, 67, 67);
+    font-size: 18px;
+    padding: 15px 0;
+}
+footer .copyright span
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width:767px)
+{
+    .navbar 
+    {
+        background-color:rgb(7, 7, 7);
+    }
+    .about
+    {
+        padding: 31px;
+    }
+    .classes
+    {
+        padding: 31px 53px;
+    }
+    .apoient .container span 
+    {
+        
+        font-size: 15px;
+    }
+    .price
+    {
+        padding: 31px;
+    }
+    .price .row , .price .row  {
+        margin-top: 40px;
+    }
+    .sub form .form-control {
+        margin: auto;
+    }
+    .btn-lg, .btn-group-lg > .btn {
+         margin-top: 10.5px;
+    }
+    footer .container
+    {
+        padding: 31px 79px;
+    }
+    .our-customer 
+    {
+        height: 150px;
+    }
+    .sub
+    {
+        height: 46vh;
+    }
+    .sub .overly {
+     
+        padding: 0 20px;
+    }
+    .sekils .over11 {
+      
+        padding: 50px;
+    }
+    .contact-us {
+       
+        padding: 50px 20px 20px 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .slide .carousel-caption {
+ 
+        min-height: 29vh;
+    }
+    .mm 
+    {
+        width: 494px;
+        margin: auto;
+    }
+    .apoient .container span {
+       
+        font-size: 20px;
+    }
+
+    .price .row .mem1 {
+        width: 434px;
+        margin: auto;
+}
+.our-customer , .our-customer .over11{
+    height: 26vh;
+}
+footer .container
+{
+    padding: 50px 30px;
+}
+    .ss 
+    {
+        display: none;
+    }
+   
+}
+
+@media (min-width:991px) and  (max-width:992px) 
+{
+    .our-team .zz .s1 , .our-team .zz .s2
+    {
+        display: none;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1200px)
+{
+    .slide .carousel-caption {
+ 
+        min-height: 29vh;
+    }
+    .our-team .zz .s2
+    {
+        display: block;
+    }
+}
+
+.option-box
+{
+    position: fixed;
+    z-index: 9999;
+    top: 100px;
+    left: 0;
+    transition: 1s ease;
+}
+.option-box.hideoption
+{
+    left: -200px;
+}
+.option-box .color-option
+{
+    background-color: #333;
+    color: #aaa;
+    padding: 10px;
+    width: 200px;
+}
+.option-box .color-option ul li 
+{
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check
+{
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+.load
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.load img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.top
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    padding: 5px 10px;
+    line-height: 2;
+    text-align: center;
+    background-color:#272727;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999999;
+    transition: .5s ease-in-out;
+    display: none;
+}
+.top:hover
+{
+    background-color: #444;
+}

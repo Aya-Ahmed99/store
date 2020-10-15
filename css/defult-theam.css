@@ -1,0 +1,121 @@
+/**************** defult theam *************/
+
+/****************** Active link**************/
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .navbar-nav > li:not(:first-of-type) >a:hover ,
+  .popup1 span:hover,
+  .slide .carousel-caption span,
+  .slide .carousel-caption a:hover,
+  #myslide > a:hover,
+  .about h4,
+  .about .row i ,
+  .classes h4,
+  .classes .details  i ,
+  .classes .details span,
+  .testmon .item span,
+  .price h4,
+  .price .row .mem1  p,
+  .price .row .mem1  button:hover,
+  .our-team span,
+  .sub h1,
+  .stats .row i ,
+  .sekils .skils-info h3,
+  .sekils .skils-info button:hover,
+  .contact-us .container i,
+  footer h3,
+  .slide .carousel-caption strong,
+footer .copyright span
+
+ {
+    color: rgb(221, 90, 2);
+}
+
+.navbar-inverse .navbar-nav > .active > a::after,
+ .navbar-inverse .navbar-nav > .active > a:hover::after,
+  .navbar-inverse .navbar-nav > .active > a:focus::after,
+  .dropdown-menu >li >a:hover,
+.dropdown-menu >li >a:focus,
+.slide .carousel-indicators li.active,
+.carousel-caption a,
+.about .row i:hover,
+.apoient .container span:hover,
+.our-team button:hover,
+.swiper-pagination span , .swiper-pagination2 span,
+.stats .row i:hover
+
+{
+    background-color:rgb(221, 90, 2);
+}
+
+
+.dropdown-menu
+{
+    border-top: 3px solid rgb(221, 90, 2);
+}
+
+.apoient .container span
+{
+    border: 1.5px solid rgb(221, 90, 2);
+    color: rgb(221, 90, 2);
+
+}
+
+
+.testmon .carousel-indicators li.active
+{
+    border: 3px solid rgb(221, 90, 2);
+}
+
+.testmon .item .client
+{
+
+    border: 2px solid rgb(221, 90, 2);
+
+}
+
+.price .row .mem1:hover p 
+{
+    border: 2px solid  rgb(221, 90, 2);
+}
+
+.price .row .mem1  button
+{
+    background-color: rgb(221, 90, 2);
+    border:1px solid rgb(221, 90, 2);
+}
+
+
+.our-team button
+{
+    border: 2px solid rgb(221, 90, 2);
+}
+
+.sekils .skils-info button
+{
+    background-color: rgb(221, 90, 2);
+    border: 2px solid rgb(221, 90, 2);
+}
+
+
+
+.contact-us .container button
+{
+    background-color: rgb(221, 90, 2);
+    border: rgb(221, 90, 2);
+}
+.option-box .color-option
+{
+
+    border: 4px solid rgb(221, 90, 2);
+}
+.option-box .gear-check
+{
+    background-color: rgb(221, 90, 2);
+}
+.top
+{
+    color: rgb(221, 90, 2);
+}
+/**************** defult theam *************/
